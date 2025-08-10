@@ -1,0 +1,32 @@
+num = int(input("Numero: "))
+print("""Ecolha
+      [1] Binários
+      [2] Octal
+      [3] Hexadecimal""")
+opcao = int(input("opção: "))
+
+if opcao == 1:
+    print(f"O valor {num} em Binário é {num:b}")
+elif opcao == 2:
+    print(f"O valor {num} em Octal é {oct(num)}")
+elif opcao == 3:
+    print(f"O valor {num} em Hexadecimal é {hex(num)}")
+else:
+    print("Opção inválida")
+    
+# eu erro
+#  File "c:\Users\arfur\PY_cursoEmVideo_guan\guanabara_2_py\a12_ex37_prof", line 1
+#     num = int(input(Numero: ))
+#                           ^
+# SyntaxError: invalid syntax
+#faltou " "
+# ficou num = int(input("Numero: "))
+
+#resposta
+# print(f"O valor {num} em Binário é {bin(num)}")
+# O valor 52 em Binário é 0b110100
+# 0b\ mostra que é binário
+# o n° em sí 110100
+
+#Atenção, para ser apenas o n° sem 0b tirar bin e deixar o num:b
+# :b significa que será valor binário
