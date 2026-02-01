@@ -2,15 +2,15 @@
 
 import random
 
-print("\n\33[0;30;106m 😃  Jooooqueeempô! 😒                          \033[m\n")
-print("\33[1;91;103m 🫵  Atenção às regras: 🧐                       \033[m\n")
-print("\33[0;30;107m 🤜  Mão fechada é pedra 🪨                      \033[m")
-print("\33[0;30;107m Pedra quebra tesoura                           \033[m")
-print("\33[0;30;107m 🖐  Mão aberta é papel 📜                       \033[m")
-print("\33[0;30;107m Papel embrulha pedra                           \033[m")
-print("\33[0;30;107m ✌  Dedo indicador e médio esticado é tesoura   \033[m")
-print("\33[0;30;107m Tesoura corta papel ✂                          \033[m\n")
-print("\33[0;30;106m Digite S para sair                             \033[m\n")
+print("\n\033[0;30;106m 😃  Jooooqueeempô! 😒                          \033[m\n")
+print("\033[1;91;103m 🫵  Atenção às regras: 🧐                       \033[m\n")
+print("\033[0;30;107m 🤜  Mão fechada é pedra 🪨                      \033[m")
+print("\033[0;30;107m Pedra quebra tesoura                           \033[m")
+print("\033[0;30;107m 🖐  Mão aberta é papel 📜                       \033[m")
+print("\033[0;30;107m Papel embrulha pedra                           \033[m")
+print("\033[0;30;107m ✌  Dedo indicador e médio esticado é tesoura   \033[m")
+print("\033[0;30;107m Tesoura corta papel ✂                          \033[m\n")
+print("\033[0;30;106m Digite S para sair                             \033[m\n")
 
 start = input("Digite C para comer a jogar ou s para sair: ").lower()
 ganhou = 0

@@ -1,14 +1,20 @@
 # Faça um programa que leia um número inteiro e diga se ele é ou não um número primo.
 
 num = int(input("valor: "))
-total = 0
 
-if num == 1 or (num>2 and num%2==0) or (num%5==0): print(f"{num} não é primo")
-else: print(f"{num} é primo")
 
-# me perdi nas regras
-# professor
+if num == 1: 
+    print("Não primo")
 
-for c in range(1,num +1):
-     if num % c == 0:
-         print
+else:  
+    for divisor in range(2,num):
+        # o divisor irá iniciar em 2 e dividirá o valor num
+        # se o resto de algum valor entre 2 e num -1 = a zero, para e retorna o resultado
+        # valor não é dividido por ele mesmo, todos n°s são divisíveis por eles mesmo com o resto zero
+        # queremos saber se é divisivel por outros valores
+        if num%divisor == 0:
+            print(f"O valor {num} não é primo")
+            break
+    else:
+            print(f"O valor {num} é primo")
+
